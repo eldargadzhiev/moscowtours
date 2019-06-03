@@ -1,0 +1,364 @@
+﻿body {
+  
+            background-size: cover;
+            font-size: 12px;
+           
+}
+/*<div id="con1"> </div>
+	<div id="con2"> </div>
+	
+	<div id="pod"> </div>*/
+ 
+#container {
+            background-size:cover;
+            margin: 10px auto;
+            min-width: 70%;
+            max-width: 80%;
+            height: auto;
+            overflow: hidden
+         
+            
+}
+ 
+#header {
+
+            height: 17%;
+            width: 100%;
+                  
+}
+ 
+#navigation {
+            background: #FF9999;
+            width: 900px;
+            height: 20px;
+}
+ 
+#con1 {
+            background: rgb(255, 255, 255);
+            float: left;
+            width: 500px;
+            height: 600px;
+}
+#con2 {
+    background: rgb(0, 0, 0);
+    float: right;
+    width: 500px;
+    /*height: 30%;*/
+}
+ 
+#menu {
+            background: #FFFF00;
+            float: center;
+            width: 100%;
+            height: auto;
+}
+
+ 
+
+ 
+.sh {
+    width: 100%;
+    height: 120%;
+}
+.logo {
+  background-color: rgba(255, 255, 255, 0.678);
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-top: -130px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  filter: alpha(Opacity=85);
+  opacity: 0.85;
+   
+}
+
+#pod     {
+    background: #FFFF00;
+    margin-top: 600px;
+    width: 1000px;
+    height: 108px;
+}
+
+
+#ctt{
+/*height: 30%;*/
+/*height: 30%;*/
+}
+#cont2 {
+/*height: 30%;*/
+    margin-top: 1%;
+display: inline-block;
+  width :100%;
+  /*height: 30%;*/
+  background:rgb(255, 255, 255);
+  
+}
+
+
+
+#inf1    {
+    background: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+  width: 50%;
+
+  float: left;
+
+  font: 14px Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+ 
+}
+#inf2    {
+ 
+  background: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+  width: 50%;
+  float: right;
+  
+  font: 14px Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  
+  text-indent: 1.5em;
+}
+#oinf1    {
+    background: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+  width: 30%;
+  height: auto;
+  float: left;
+  font: 14px Arial, Helvetica, sans-serif;
+  margin-bottom: 2%;
+ 
+}
+#oinf2    {
+ 
+  background: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+  width: 70%;
+  float: right;
+  
+  font: 14px Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  
+  text-indent: 1.5em;
+}
+#oinf2p    {
+    background: rgb(255, 255, 255);
+    width: 70%;
+    float: right;
+    height: auto;
+}
+#oinf2p p {
+    font: 12px Arial, Helvetica, sans-serif;
+   padding-left: 80% ;
+}
+.figcaption {
+    font: 12px Arial, Helvetica, sans-serif;
+
+}
+.k1 {
+    width: 40%;
+    
+    margin-top: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 15px;
+   display: block;
+}
+P { 
+    text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+   }
+
+   #polo    {
+
+    width: 100%;
+    height: 40px;
+    background:rgb(62, 57, 66);
+       }
+     .gl {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+     }  
+
+    #aft {
+        display: block;
+        margin-left: 18%;
+        margin-right: 20%;
+        margin-top: 2%;
+        width: auto;
+        height: 6%;
+        background: rgba(255, 255, 0, 0);     
+    }
+
+    #aft p {
+        text-align: center;
+        font: 13px Arial, Helvetica, sans-serif;
+        color: #fff;
+        background: rgba(255, 0, 0, 0);
+        
+    }
+
+    #polo2    {
+        display: inline-block;
+        float: center;
+        margin-top: 1%;
+        width: 100%;
+        height: 10%;
+        background:rgb(62, 57, 66);
+           }
+        .yzn {
+            margin: 5px;
+            float: right;
+            width: 7%;
+            height: 90%;
+        }
+        .yzn2 {
+            margin: 5px;
+            float: left;
+            width: 7%;
+            height: 90%;
+            transform: scale(-1, 1);
+        }
+       
+
+
+
+  *,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5;
+}
+#menu {
+    background: rgb(62, 57, 66);
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    
+    margin: 0px 0
+}
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 13px Arial, Helvetica, sans-serif;
+   
+}
+#menu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 0px;
+    height: 40px  
+}
+#menu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+#menu ul li a:hover {
+    background-color: #666;
+}
+
+
+
+.hovergallery img{
+
+  -webkit-transition-duration: 0.5s; /*Webkit: длительность анимации*/
+  -moz-transition-duration: 0.5s; /*Mozilla: длительность анимации*/
+  -o-transition-duration: 0.5s; /*Opera: длительность анимации*/
+
+  margin: 10px 0px 5px 0; /*Интервалы между изображениями*/ 
+  height: 16%;
+ display: inline-block;
+  }
+  
+  .hovergallery img:hover{
+  -webkit-transform:scale(2.0); /*Webkit: увеличиваем размер до 1.2x*/
+  -moz-transform:scale(1.2); /*Mozilla: масштабирование*/
+  -o-transform:scale(1.2); /*Opera: масштабирование*/
+  box-shadow:0px 0px 10px gray; /*CSS3 тени: 30px размытая тень вокруг всего изображения*/
+  -webkit-box-shadow:0px 0px 10px gray; /*Webkit: тени*/
+  -moz-box-shadow:0px 0px 10px gray; /*Mozilla: тени*/
+  opacity: 1;
+  }
+
+
+
+
+  #inf31    {
+    background: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+  width: 33%;
+  float: left;
+  
+
+  font: 14px Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  
+ 
+}
+#inf32    {
+ 
+  background: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+  width: 32%;
+  float: left;
+  margin-left: 1%;
+  font: 14px Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  
+  text-indent: 1.5em;
+}
+#inf33    {
+ 
+    background: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+    width: 33%;
+    
+    float: right;
+    font: 14px Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+    text-indent: 1.5em;
+  }
+  
+  #cont3 {
+      /*overflow: auto;*/
+    margin-top: 1%;
+    display: inline-block;
+      width :100%;
+      /*height: 30%;*/
+      background:rgb(255, 255, 255);
+      

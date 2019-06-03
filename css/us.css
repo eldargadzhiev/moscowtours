@@ -1,0 +1,58 @@
+/*<div id="menu">
+			
+			<a href="#" class="button17" tabindex="0">О Москве</a>
+			<a href="#" class="button17" tabindex="0">Наши экскурсионные программы</a>
+			<a href="#" class="button17" tabindex="0">4 причины выбрать нас</a>
+			<a href="#" class="button17" tabindex="0">Отзыв наших клиентов</a>
+			<a href="#" class="button17" tabindex="0">О нас</a>
+			<a href="#" class="button17" tabindex="0">Контакты</a>
+	</div>
+*/
+
+
+
+
+    a.button17 {
+    
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    color: rgb(205,216,228);
+    text-shadow: 0 -1px rgb(46,53,58);
+    text-decoration: none;
+    user-select: none;
+    line-height: 2.9em;
+    padding: 1px 1.0332em;
+    outline: none;
+    border: 1px solid rgba(33,43,52,1);
+    border-radius: 3px;
+    background: rgb(81,92,102) linear-gradient(rgb(81,92,102), rgb(69,78,87));
+    box-shadow:
+     inset 0 1px rgba(101,114,126,1),
+     inset 0 0 1px rgba(140,150,170,.8),
+     0 1px rgb(83,94,104),
+     0 0 1px rgb(86,96,106);
+  }
+  a.button17:active {
+    box-shadow:
+     inset 0 1px 3px rgba(0,10,20,.5),
+     0 1px rgb(83,94,104),
+     0 0 1px rgb(86,96,106);
+  }
+  a.button17:focus:not(:active) {
+    border: 1px solid rgb(22,32,43);
+    border-bottom: 1px solid rgb(25,34,45);
+    background: rgb(53,61,71);
+    box-shadow:
+     inset 0 1px 3px rgba(0,10,20,.5),
+     0 1px rgb(83,94,104),
+     0 0 1px rgb(86,96,106);
+    pointer-events: none;
+  }
+
+
+
+  ul {
+      display:block;
+      margin:0:
+  }
